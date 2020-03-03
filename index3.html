@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BibSearch</title>
+</head>
+<body>
+<!-- Website HTML Starts Here -->
+<!-- Website Red is #cc0000 -->
+<div id="container">
+<div id="header">
+  <h1>BibSearch App </h1>
+  <p align="center">
+<a href="index3.html"><button class="button <span>Hover </span></button>style="vertical-align:middle">Home</button></a>
+<a href="About.html"><button class="button <span>Hover </span></button>style="vertical-align:middle">About</button></a>
+<a href="App.html"><button class="button <span>Hover </span></button>style="vertical-align:middle">App</button></a>
+<a href="Links.html"><button class="button <span>Hover </span></button>style="vertical-align:middle">Links</button></a>
+</p>
+</div>
+<!--<a href="#bottom">Jump to Bottom</a>-->
+<!-- Large picture of "Another World" -->
+<!-- Container element -->
+
+<div class="parallax"></div>
+<div id="content">
+<img src="Logo cleaned copy.gif" width="300" height="300" alt="Logo"/>
+<div style="height:100px;font-size:36px;padding-top:5px;padding-bottom:5px; ">
+Welcome to the Official Website of the BibSearch App
+</div>
+ </div>
+
+
+<!-- Large Responsive Video
+<div class="videoWrapper">
+<iframe 
+src="http://www.youtube.com/embed/TU9kffoAQ8U?autoplay=1">
+</iframe>
+</div>
+-->
+<div id="footer">
+<h1>Navigate Website</h1>
+<p><a href="index3.html">Home</a> |
+<a href="About.html">About</a> |
+<a href="App.html">App</a> |
+<a href="Links.html">Links</a>
+</p>
+</div>
+</div>
+</body>
+
+</body>
+</html>
+
+<style>
+
+#header {
+	background-color:#cc0000; 
+    color:white;
+	font-size: 30px;
+    text-align:center;
+    padding:1px;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#content {
+	background-color:#dedede;
+    width:100%;
+    padding-top:5px; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#footer {
+	position: absolute;  
+	background-color:#000000;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+	width:100%;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #dedede;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("back splash.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+	position: relative;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+
+</style>
+
+
+
